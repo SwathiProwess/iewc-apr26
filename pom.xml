@@ -68,15 +68,7 @@
 						</sharedLibrary>
 					</sharedLibraries>
 				</configuration>
-				<executions>
-					<execution>
-						<id>deploy</id>
-						<phase>deploy</phase>
-						<goals>
-							<goal>deploy</goal>
-						</goals>
-					</execution>
-				</executions>
+				
 			</plugin>
 			<plugin>
 				<groupId>com.mulesoft.munit.tools</groupId>
