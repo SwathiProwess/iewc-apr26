@@ -32,14 +32,14 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>3.8.0</version>
+				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
 						<muleVersion>4.4.0</muleVersion>
 						<username>nareshyr2</username>
 						<password>Naresh123!</password>
-						<applicationName>Apr27-iewc-test2</applicationName>
+						<applicationName>Apr27-iewc-test3</applicationName>
 						<environment>Sandbox</environment>
 						<workers>1</workers>
 						<workerType>MICRO</workerType>
