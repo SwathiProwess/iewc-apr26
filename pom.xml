@@ -39,7 +39,7 @@
 						<muleVersion>4.4.0</muleVersion>
 						<username>nareshyr2</username>
 						<password>Naresh123!</password>
-						<applicationName>Apr27-iewc-test1</applicationName>
+						<applicationName>Apr27-iewc-test2</applicationName>
 						<environment>Sandbox</environment>
 						<workers>1</workers>
 						<workerType>MICRO</workerType>
@@ -96,14 +96,7 @@
 		</plugins>
 	</build>
 
-	<distributionManagement>
-		<repository>
-			<id>MuleRepository</id>
-			<name>Corporate Repository</name>
-			<url>https://maven.anypoint.mulesoft.com/api/v1/organizations/f71744f6-c56a-460f-8321-2c7c82cd6a6e/maven</url>
-			<layout>default</layout>
-		</repository>
-	</distributionManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.mule.connectors</groupId>
